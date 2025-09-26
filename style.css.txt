@@ -1,54 +1,44 @@
-/* Estilo geral da página */
 body {
-    background-color: #f0f8ff; /* Cor suave */
+    background-color: #f2f2f2;
     font-family: Arial, sans-serif;
-    padding: 20px;
-    color: #333;
+    margin: 20px;
 }
 
-/* Título */
 h1 {
-    color: #2c3e50;
     text-align: center;
+    color: #2c3e50;
 }
 
-/* Parágrafo */
 p {
     font-size: 18px;
     text-align: justify;
 }
 
-/* Lista */
-ul {
-    line-height: 2;
-    padding-left: 20px;
+ul li {
+    margin-bottom: 10px;
 }
 
-/* Imagem dos hobbies */
 img {
     border-radius: 10px;
-    margin-top: 10px;
 }
 
-/* Tabela */
 table {
+    width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    width: 100%;
 }
 
 table, th, td {
-    border: 1px solid #333;
+    border: 1px solid #000;
     padding: 10px;
     text-align: center;
 }
 
-/* Link */
 a {
-    color: #007BFF;
+    color: #0066cc;
     text-decoration: none;
 }
 
 a:hover {
-    color: #FF4500;
+    color: #ff6600;
 }
